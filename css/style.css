@@ -63,19 +63,21 @@ nav ul{
     background-image: url(../assets/situ_gunung.jpg);
     background-size: 350px;
     border-radius: 15px;
-    
+
 }
+
 #card-4{
     background-image: url(../assets/kampung_biru.jpg);
     background-size: 350px;
     border-radius: 15px;
-   
 }
+
 #card-5{
     background-image: url(../assets/Trawas.jpg);
     background-size: 350px;
     border-radius: 15px;
 }
+    
 #card-6{
     background-image: url(../assets/padang-padang.jpg);
     background-size: 350px;
