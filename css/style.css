@@ -51,15 +51,15 @@ nav ul{
     background-size: 290px;
 }
 .card #card-2{
-    background-image: url(/assets/uluwatu_Temple.jpg);
+    background-image: url(../assets/uluwatu_Temple.jpg);
     background-size: 350px;
 }
 .card #card-3{
-    background-image: url(/assets/situ_gunung.jpg);
+    background-image: url(../assets/situ_gunung.jpg);
     background-size: 350px;
 }
 .card #card-4{
-    background-image: url(/assets/kampung_biru.jpg);
+    background-image: url(../assets/kampung_biru.jpg);
     background-size: 350px;
 }
 
