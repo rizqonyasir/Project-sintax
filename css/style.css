@@ -42,25 +42,44 @@ nav ul{
    
 }
 .container-card{
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
+    margin-left: 50px;
+}
+    
+
+#card-1{
+    background-image: url(../assets/oroOmbo.jpg);
+    background-size: 290px;
+    border-radius: 15px;
+}
+#card-2{
+    background-image: url(../assets/uluwatu_Temple.jpg);
+    background-size: 350px;
+    border-radius: 15px;
 }
 
-.card #card-1{
-    background-image: url(/assets/oroOmbo.jpg);
-    background-size: 290px;
-}
-.card #card-2{
-    background-image: url(/assets/uluwatu_Temple.jpg);
+#card-3{
+    background-image: url(../assets/situ_gunung.jpg);
     background-size: 350px;
+    border-radius: 15px;
+    
 }
-.card #card-3{
-    background-image: url(/assets/situ_gunung.jpg);
+#card-4{
+    background-image: url(../assets/kampung_biru.jpg);
     background-size: 350px;
+    border-radius: 15px;
+   
 }
-.card #card-4{
-    background-image: url(/assets/kampung_biru.jpg);
+#card-5{
+    background-image: url(../assets/Trawas.jpg);
     background-size: 350px;
+    border-radius: 15px;
+}
+#card-6{
+    background-image: url(../assets/padang-padang.jpg);
+    background-size: 350px;
+    border-radius: 15px;
 }
 
 .card button{
@@ -81,4 +100,9 @@ nav ul{
 
 .card a:hover{
     color: rgb(124, 124, 124);
+}
+
+.card {
+    margin-top: 20px;
+    padding: 10px;
 }
