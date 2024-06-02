@@ -24,6 +24,7 @@ nav h2{
 nav{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 700;
 }
 
 nav ul{
@@ -37,14 +38,11 @@ nav ul{
     display: flex;
 }
 
-.container-card{
-    display: flex;
-   
-}
+
 .container-card{
     justify-content: center;
     display: flex;
-    margin-left: 50px;
+    margin-left: 30px;
 }
     
 
@@ -108,3 +106,127 @@ nav ul{
     margin-top: 20px;
     padding: 10px;
 }
+
+
+
+/* INI AWAL HERO SECTION */
+.container-section{
+    margin-top: 100px;
+}
+section{
+    display: flex;
+    margin-top: 100px;
+    border: 3px solid;
+    border-radius: 40px;
+    margin-left: 20px;
+    border-color: #3c303e;
+}
+
+.section-kiri{
+    padding: 20px;
+}
+.section-kanan{
+    margin: 50px;
+}
+
+.section-kanan img{
+    border-radius: 64px 96px 128px 32px;
+}
+
+.section-kiri img{
+    border-radius: 32px 64px;
+}
+
+section button{
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    width:150px ;
+    height:40px ;
+    border-style:inherit;
+}
+section a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Ranille";
+    letter-spacing: 1px;
+}
+section a:hover{
+    color: rgb(124, 124, 124);
+}
+section p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+section h1{
+font-family: "Ranille";
+margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    section img {
+      visibility: hidden;
+      width: 10px;
+    }
+
+   section{
+    width: 300px;
+   } 
+  }
+
+  .container-footer{
+    margin-top: 190px ;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .hello{
+    margin-left: 80px;
+  }
+
+#subscribe {
+    margin-right:30px;
+}
+
+  .container-footer p{
+    color: rgb(135, 135, 135);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .container-footer h5{
+    color: rgb(135, 135, 135);
+  }
+
+  #subscribe img{
+    padding-right: 10px;
+    width: 30px;
+  }
+  .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+
+  .copyright p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(135, 135, 135);
+    margin-right: 70px;
+    margin-top: 10px;
+  }
+
+  .copyright h2{
+    font-family: "Ranille";
+    color: black;
+    margin-left: 30px;
+  }
+
+
+
+
