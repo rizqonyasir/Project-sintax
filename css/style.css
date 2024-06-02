@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
 }
-
 @font-face{
     font-family: Ranille;
    src: url(../font/RanilleNormalRegular-axEpm.otf);
 }
+@font-face{
+    font-family:Bookman ;
+   src: url(../font/Bookman\ Swash\ Bold\ Italic.otf);
+}
+@font-face{
+    font-family:Kaoli ;
+   src: url(../font/Kaoly\ Demo-Regular.ttf);
+}
+
+
 nav h2{
     font-family: "Ranille";
     margin-right: 40px;
@@ -23,8 +32,53 @@ nav ul{
 }
 
 #carouselExampleCaptions{
-    padding: 50px 50px 0 50px;
+    padding: 20px 50px 0 50px;
     justify-content: center;
     display: flex;
 }
 
+.container-card{
+    display: flex;
+   
+}
+.container-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card #card-1{
+    background-image: url(/assets/oroOmbo.jpg);
+    background-size: 290px;
+}
+.card #card-2{
+    background-image: url(/assets/uluwatu_Temple.jpg);
+    background-size: 350px;
+}
+.card #card-3{
+    background-image: url(/assets/situ_gunung.jpg);
+    background-size: 350px;
+}
+.card #card-4{
+    background-image: url(/assets/kampung_biru.jpg);
+    background-size: 350px;
+}
+
+.card button{
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    width:60px ;
+    height:40px ;
+    border-style:inherit;
+    
+}
+
+.card a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Ranille";
+    letter-spacing: 1px;
+}
+
+.card a:hover{
+    color: rgb(124, 124, 124);
+}
